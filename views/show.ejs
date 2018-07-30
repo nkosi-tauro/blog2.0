@@ -55,8 +55,8 @@
             <% if(currentUser && blog.author.id.equals(currentUser._id)){ %>
                 <a class="btn btn-success glyphicon glyphicon-pencil" href="/blogs/<%= blog._id %>/edit">EDIT</a>
           <br><br>
-                <form id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
-                   <a class="btn btn-danger" href="/blogs/<%= blog._id %>/edit" onclick="notice()">DELETE</a>
+                <form onsubmit="return confirm('Do you really want delete this post?');" id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+                   <button type="submit" class="btn btn-danger" >Delete</button>
                 </form>
             <% } %>
         </div>
