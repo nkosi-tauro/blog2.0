@@ -1,5 +1,6 @@
 dependencies:
   body-parser: 1.18.3
+  bootstrap-cookie-alert: 1.0.0
   connect-flash: 0.1.1
   ejs: 2.6.1
   express: 4.16.3
@@ -69,6 +70,10 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-WykhmP/dVTs6DyDe0FkrlWlVyLQ=
+  /bootstrap-cookie-alert/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-W0sBjaWz3bkkd/Wdau1h2AgtTL/yKumI0TXTunOz4E5oWjp0HUT2crnt9eu2BDOhBJekoEWfPmtmz0nch9W5dw==
   /bson/1.0.9:
     dev: false
     engines:
@@ -863,6 +868,7 @@ shrinkwrapMinorVersion: 8
 shrinkwrapVersion: 3
 specifiers:
   body-parser: ^1.18.2
+  bootstrap-cookie-alert: ^1.0.0
   connect-flash: ^0.1.1
   ejs: ^2.5.7
   express: ^4.16.2

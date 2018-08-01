@@ -3,6 +3,7 @@
 
 
 <!-- Container (Featured) -->
+<!--EVENT1  -->
 
 <div id="band" class="container text-center">
   <h3>Featured Events(TECH)</h3>
@@ -33,7 +34,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong>STARTUP BATTLEFIELD MENA 2018</strong></p><br>
       <a href="#demo3" data-toggle="collapse">
-        <img src="https://images.pexels.com/photos/459719/pexels-photo-459719.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-rounded person" alt="Random Name" width="255" height="255">
+        <img src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/07/labo-796x417.png" class="img-rounded person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo3" class="collapse">
        <p>Location: Beirut, Lebanon</p>
@@ -45,7 +46,7 @@
 
 
 
-<!--BAND2  -->
+<!--EVENT2  -->
 <div id="band2" class="container text-center">
   <h3>Featured Events (MUSIC)</h3>
   <p><em>We love Music</em></p>
@@ -55,7 +56,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong> Creamfields</strong></p><br>
       <a href="#demo" data-toggle="collapse">
-        <img src="https://i0.wp.com/travelfreak.net/wp-content/uploads/2018/04/summer-music-festivals.jpg?resize=800%2C600&ssl=1" class="img-rounded person" alt="Random Name" width="255" height="255">
+        <img src="https://i2.wp.com/travelfreak.net/wp-content/uploads/2018/04/Tomorrowland-belgium.jpg?resize=800%2C450&ssl=1" class="img-rounded person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo4" class="collapse">
         <p>Location:  Daresbury, UK</p>
@@ -85,7 +86,7 @@
   </div>
 </div>
 
-<!--BAND3  -->
+<!--EVENT3  -->
 <div id="band3" class="container text-center">
   <h3>Featured Events (GAMING)</h3>
   <p><em>We love Games!</em></p>
@@ -159,7 +160,7 @@
             <div class="rounded"></div>
 
             <p>
-                <%- blog.body.substring(0, 5) %>...
+                <%- blog.body.substring(0,0) %>
             </p>
             <form action="/blogs/<%= blog._id %>">
               <input type="submit" class="btn" value="Read More"/>
@@ -207,7 +208,7 @@
     <div class="col-md-4">
       <p>Buy us a coffee..</p>
       <p><span class="glyphicon glyphicon-map-marker"></span>Fremont, CA, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1595481332</p>
       <p><span class="glyphicon glyphicon-envelope"></span>Email: info@theplayground.com</p>
     </div>
     <div class="col-md-8">
@@ -230,6 +231,9 @@
   </div>
 </div>
   
+
+
+
   <!-- Google Maps -->
 <div id="googleMap"></div>
 <script>
@@ -242,9 +246,12 @@ marker.setMap(map);
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcr6ROJJbiLqwNv78jdoBjWTyD2ewnl9A&callback=myMap"></script>
-
+<!-- Google Maps -->
   
-  <script>
+
+<!--DIV FADE For featured EVENTS  -->
+<script>
+    
 	$(document).ready(function(){
 		$("#myModal").modal('show');
 	});
@@ -279,4 +286,7 @@ marker.setMap(map);
 }); 
     
   </script>
+<!--  -->
+
+
   <% include ./partials/footer %>
