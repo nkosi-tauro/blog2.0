@@ -24,13 +24,6 @@
                   <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       <li><a href="/blogs/archives">Archives</a></li>
-                      <% if(!currentUser){ %>
-                      <li><a href="/login">LOGIN</a></li>
-                      <li><a href="/register">SignUp</a></li>
-                      <% } else{ %>
-                      <li><a href="#">Hey, <%= currentUser.username %>!</a></li> 
-                      <li><a href="/logout">Log Out</a></li> 
-                      <% } %>
                     </ul>
                   </li>
                 <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>

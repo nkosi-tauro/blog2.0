@@ -26,35 +26,51 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
                 </button>
-                <a class="navbar-brand" href="/">The Playground👾</a>
+                <a class="navbar-brand nav-text" href="/">The Playground👾</a>
               </div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#myPage">HOME</a></li>
-                  <li><a href="#tour">BLOG</a></li>
-                  <li><a href="/blogs/new">NEW POST</a></li>
-                  <li><a href="#contact">CONTACT</a></li>
-                  <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                  <li><a class="nav-text" href="#myPage">HOME</a></li>
+                  <li><a class="nav-text" href="#tour">BLOG</a></li>
+                  <li><a class="nav-text" href="/blogs/new">NEW POST</a></li>
+                  <li><a class="nav-text" href="#contact">CONTACT</a></li>
+                   <li class="dropdown">
+                  <a class="dropdown-toggle nav-text" data-toggle="dropdown" href="#">MORE
                   <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       <li><a href="/blogs/archives">Archives</a></li>
-                      <% if(!currentUser){ %>
-                      <li><a href="/login">Log In</a></li>
-                      <li><a href="/register">SignUp</a></li>
-                      <% } else{ %>
-                      <li><a href="#">Hey, <%= currentUser.username %>!</a></li> 
-                      <li><a href="/logout">Log Out</a></li> 
-                      <% } %>
                     </ul>
                   </li>
+                  <% if(!currentUser){ %>
+                  <li><a class="fuller-button2 blue" href="/login">LOG IN</a></li>
+                  <li><a class="fuller-button2 blue" href="/register">SIGN UP</a></li>
+                  <% } else{ %>
+                  <li><a class="fuller-button2 blue" href="#">Hey, <%= currentUser.username %>!</a></li> 
+                  <li><a class="fuller-button2 blue" href="/logout">LOG OUT</a></li> 
+                  <% } %>
                 <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
               </ul>
             </div>
           </div>
         </nav>
           
-       
+          
+       <!--SECONDARY NAV-->
+<!--          <nav class="navbar navbar-default second-nav">
+            <div class="container-fluid">
+              <ul class="nav navbar-nav navbar-right">
+                  <% if(!currentUser){ %>
+                  <li><a class="fuller-button2 blue" href="/login">LOG IN</a></li>
+                  <li><a class="fuller-button2 blue" href="/register">SIGN UP</a></li>
+                  <% } else{ %>
+                  <li><a class="fuller-button2 blue" href="#">Hey, <%= currentUser.username %>!</a></li> 
+                  <li><a class="fuller-button2 blue" href="/logout">LOG OUT</a></li> 
+                  <% } %>
+              </ul>
+           </div>
+        </nav>
+        
+        -->
           
           
           
