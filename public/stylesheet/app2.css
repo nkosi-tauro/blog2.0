@@ -4,9 +4,11 @@
 }
 
 body {
-  background-image:url(https://cdn.glitch.com/75c910c6-bfcd-43cb-af7d-b424deacf137%2Fphoto-1519888225640-4e937ce64761.jfif?1532909026651);
+  background-image:url(https://images.unsplash.com/photo-1529539795054-3c162aab037a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e8d5127d92d2cb6a8803d0ed30255531&auto=format&fit=crop&w=1050&q=80);
   color: #fff;
+  background-size:cover;
   font-family: "Open Sans", sans-serif;
+ 
 }
 
 h2 {
@@ -31,6 +33,7 @@ a {
   left: 50%;
   margin-left: -175px;
   margin-top:90px;
+   font-size:20px;
 }
 
 input[type="text"], input[type="password"] {
@@ -40,7 +43,7 @@ input[type="text"], input[type="password"] {
   border: 0;
   border-bottom: 1px solid #435160;
   outline: none;
-  color: #fff;
+  color: #000;
   font-size: 19px;
 }
 input[type=checkbox] {
@@ -84,28 +87,28 @@ input[type="submit"]:hover {
 .forgot {
   margin-top: 30px;
   display: block;
-  font-size: 11px;
+  font-size: 17px;
   text-align: center;
   font-weight: bold;
 }
 .forgot:hover {
   margin-top: 30px;
   display: block;
-  font-size: 11px;
+  font-size: 17px;
   text-align: center;
   font-weight: bold;
-  color: #6D7781;
+  color: #0dd;
 }
 
 .agree {
   padding: 30px 0px;
-  font-size: 12px;
+  font-size: 17px;
   text-indent: 25px;
   line-height: 15px;
 }
 
 ::-webkit-input-placeholder {
-  color: #435160;
+  color:#0dd ;
   font-size: 12px;
 }
 
