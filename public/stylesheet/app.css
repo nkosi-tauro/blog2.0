@@ -45,11 +45,8 @@ color:#0dd;
   }
   .bg-1 {
 /*       background: #ccc; */
-      background-color: #2876f9;
-background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%);
-
-
-      color: #bdbdbd;
+      background-color: #2d2d30;
+      color: #fff;
   }
   .bg-1 h3 {color: #000;}
   .bg-1 p {font-style: italic;}
@@ -222,7 +219,7 @@ img {
 .blog-item .content .title .blog-date {
     font-size: 12px;
     margin-left: 20px;
-    color: #333;
+    color: #fff;
     font-family: 'Lato', sans-serif;
 }
 
