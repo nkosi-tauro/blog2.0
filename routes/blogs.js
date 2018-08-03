@@ -11,7 +11,9 @@ router.get("/", function(req, res){
         } else{
             res.render("index", {allBlogs: blogs, currentUser: req.user});
         }
-    })
+    }).sort(
+        { "_id": -1 }
+      )
 });
 
 //NEW ROUTE
