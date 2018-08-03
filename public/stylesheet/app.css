@@ -46,7 +46,13 @@ color:#0dd;
   .bg-1 {
 /*       background: #ccc; */
       background-color: #2d2d30;
-      color: #fff;
+
+      color: #bdbdbd;
+
+
+
+   
+
   }
   .bg-1 h3 {color: #000;}
   .bg-1 p {font-style: italic;}
